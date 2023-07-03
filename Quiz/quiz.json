@@ -1,0 +1,12 @@
+[
+    {
+        "question_text": "What is python in cse?",
+        "alternatives": ["Snake","Planet","Coding Language","Celebrity"],
+        "correct_answer": 3
+    },
+    {
+        "question_text": "How deep is deep sea?",
+        "alternatives": ["<500 meter","1000-4000 meter","5000-7000 meter",">10000 meter"],
+        "correct_answer": 4
+    }
+]
