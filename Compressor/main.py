@@ -22,8 +22,8 @@ while True:
     event, values = window.read()
     # print(event, type(values["filechoose"]))
     # print(event, type(values["folderchoose"]))
-    if event == sg.WIN_CLOSED or event == "exit":
-        break
+    # if event == sg.WIN_CLOSED or event == "exit":
+    #     break
     filepaths = values["filechoose"].split(';')
     folderpath = values["folderchoose"]
     print(len(filepaths), len(folderpath))
@@ -36,6 +36,5 @@ while True:
     elif event == "exit":
         break
 
-window.read()
 window.close()
 
