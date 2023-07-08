@@ -12,7 +12,7 @@ class Interface:
         self.color_code = ((255,255,255),'#ffffff')
         # Header Frame
 
-        self.logo = PhotoImage(file="1.png").subsample(5,5)
+        self.logo = PhotoImage(file="G:/Python-Projects/Image Editor/1.png").subsample(5,5)
         ttk.Label(self.header_frame,text="This is an Image Editor",font=4,background="#0f4f42",foreground="White").grid(row=0,column=1)
         ttk.Label(self.header_frame,text="Upload, modify and save your image as you like",background="#0f4f42",foreground="White").grid(row=1,column=1)
         ttk.Label(self.header_frame,image=self.logo).grid(row=0,column=0,rowspan=2)
